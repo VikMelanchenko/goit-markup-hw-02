@@ -1,0 +1,55 @@
+/* цвет основного текста #212121*/
+/* вторичный цвет текста #757575 */
+/* фон белый #ffffff */
+/* вторичный цвет фона #F5F4FA */
+/* черный #212121 */
+/* акцент #2196F3 */
+/* цвет футер rgba(255, 255, 255, 0.6) */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+}
+
+body {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.logo {
+  color: var(--title-text-color);
+}
+
+.logo:hover {
+  color: var(--accent-color);
+}
+
+/* site nav */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* section */
+.section-title {
+  color: var(--title-text-color);
+}
+
+.features,
+.features-title {
+  color: var(--title-text-color);
+}
+
+/* команда */
+.team-title {
+  color: var(--title-text-color);
+}
