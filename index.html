@@ -55,7 +55,7 @@
     <main>
       <section class="section">
         <!--особенности-->
-        <ul class="features-list">
+        <ul class="features-list list">
           <li>
             <h3 class="features-title">Внимание к деталям</h3>
           </li>
@@ -67,7 +67,7 @@
           </li>
         </ul>
 
-        <ul class="features-list">
+        <ul class="features-list list">
           <li>
             <h3 class="features-title">Пунктуальность</h3>
           </li>
@@ -79,7 +79,7 @@
           </li>
         </ul>
 
-        <ul class="features-list">
+        <ul class="features-list list">
           <li>
             <h3 class="features-title">Планирование</h3>
           </li>
@@ -91,7 +91,7 @@
           </li>
         </ul>
 
-        <ul class="features-list">
+        <ul class="features-list list">
           <li>
             <h3 class="features-title">Современные технологии</h3>
           </li>
@@ -108,7 +108,7 @@
       <section class="section">
         <h2 class="section-title">Чем мы занимаемся</h2>
 
-        <ul class="work-list">
+        <ul class="work-list list">
           <li>
             <a href=""
               ><img
@@ -152,9 +152,9 @@
         <h3 class="section-title">Наша команда</h3>
         <img src="./images/john.jpg" alt="фото1" width="278" height="260" />
         <h4 class="team-title">John Smith</h4>
-        <p>Product Designer</p>
+        <p class="team text">Product Designer</p>
 
-        <ul class="team-list">
+        <ul class="team-list list">
           <li>
             <a href="" aria-label="ссылка на Instagram" class="team link"
               >Instagram</a
@@ -179,9 +179,9 @@
 
         <img src="./images/martha.jpg" alt="фото2" width="278" height="260" />
         <h4 class="team-title">Marta Stewart</h4>
-        <p>Frontend Developer</p>
+        <p class="team text">Frontend Developer</p>
 
-        <ul class="team-list">
+        <ul class="team-list list">
           <li>
             <a href="" aria-label="ссылка на Instagram" class="team link"
               >Instagram</a
@@ -206,9 +206,9 @@
 
         <img src="./images/robert.jpg" alt="фото3" width="278" height="260" />
         <h4 class="team-title">Robert Jakis</h4>
-        <p>Marketing</p>
+        <p class="team text">Marketing</p>
 
-        <ul class="team-list">
+        <ul class="team-list list">
           <li>
             <a href="" aria-label="ссылка на Instagram" class="team link"
               >Instagram</a
@@ -233,9 +233,9 @@
 
         <img src="./images/martin.jpg" alt="фото4" width="278" height="260" />
         <h4 class="team-title">Martin Doe</h4>
-        <p>UI Designer</p>
+        <p class="team text">UI Designer</p>
 
-        <ul class="team-list">
+        <ul class="team-list list">
           <li>
             <a href="" aria-label="ссылка на Instagram" class="team link"
               >Instagram</a
@@ -262,7 +262,7 @@
       <!--клиенты-->
       <section class="section">
         <h2 class="section-title">Постоянные клиенты</h2>
-        <ul>
+        <ul class="list">
           <li>
             <a href=""><img src="./images/logo1.svg" alt="клиент1" /></a>
           </li>
@@ -286,51 +286,55 @@
     </main>
 
     <!--футер-->
-    <footer class="page-footer">
-      <a href="" class="logo"> <span class="accent">Web</span> Studio</a>
+    <footer class="footer-page">
+      <a href="./index.html" class="logo">
+        <span class="accent">Web</span> Studio</a
+      >
+      <section class="address-info">
+        <address class="street-address">
+          г. Киев, пр-т Леси Украинки, 26
+        </address>
 
-      <address>
-        г. Киев, пр-т Леси Украинки, 26 <br />
-        <a href="mailtoinfo@example.com">info@example.com</a>
-        <br />
-        <a href="tel:380991111111">+38 099 111 11 11</a>
-      </address>
-
-      <div>
-        <b>присоединяйтесь</b>
-        <!--ссылки на соцсети-->
-        <ul class="network-list">
+        <ul class="contacts-list list">
           <li>
-            <a href="" aria-label="ссылка на Instagram" class="network link"
+            <a href="mailtoinfo@devstudio.com" class="contacts"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:380961111111" class="contacts">+38 096 111 11 11</a>
+          </li>
+        </ul>
+      </section>
+      <!--ссылки на соцсети-->
+      <div class="social">
+        <b class="label">присоединяйтесь</b>
+        <ul class="social-label list">
+          <li>
+            <a href="" aria-label="ссылка на Instagram" class="link"
               >Instagram</a
             >
           </li>
           <li>
-            <a href="" aria-label="ссылка на Twitter" class="network link"
-              >Twitter</a
-            >
+            <a href="" aria-label="ссылка на Twitter" class="link">Twitter</a>
           </li>
           <li>
-            <a href="" aria-label="ссылка на Facebook" class="network link"
-              >Facebook</a
-            >
+            <a href="" aria-label="ссылка на Facebook" class="link">Facebook</a>
           </li>
           <li>
-            <a href="" aria-label="ссылка на Linkedin" class="network link"
-              >Linkedin</a
-            >
+            <a href="" aria-label="ссылка на Linkedin" class="link">Linkedin</a>
           </li>
         </ul>
       </div>
 
-      <div>
-        <!--подписка-->
-        <b>подписаться на рассылку</b>
+      <!--подписка-->
+      <div class="social">
+        <b class="label">подписаться на рассылку</b>
         <input type="text" name="E-mail" />
-        <a href="" class="button primary">Подписаться</a>
+        <a href="" class="button secondary">Заказать услугу</a>
       </div>
 
-      <p>2020 | Developed by GoIT Students</p>
+      <p class="copyrigt">2020 | Developed by GoIT Students</p>
     </footer>
   </body>
 </html>
